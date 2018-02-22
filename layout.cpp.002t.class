@@ -1,0 +1,18 @@
+Class _iobuf
+   size=32 align=4
+   base size=32 base align=4
+_iobuf (0x0x84d4460) 0
+
+Vtable for Thing
+Thing::_ZTV5Thing: 4u entries
+0     (int (*)(...))0
+4     (int (*)(...))(& _ZTI5Thing)
+8     (int (*)(...))Thing::foo
+12    (int (*)(...))Thing::bar
+
+Class Thing
+   size=12 align=4
+   base size=12 base align=4
+Thing (0x0x84d4738) 0
+    vptr=((& Thing::_ZTV5Thing) + 8u)
+
